@@ -2,3 +2,25 @@ body {
     font-family: 'Public Sans', sans-serif;
     background-color: white;
 }
+
+h1 {
+    font-size: 4em;
+    font-weight:700;
+    line-height: 4.5em;
+    color: #1C1D1F;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight:700;
+    line-height: 3em;
+    color: #1C1D1F;
+}
+
+h3 {
+    font-size: 1.374em;
+    font-weight:700;
+    line-height: 1.65em;
+    color: #1C1D1F;
+}
+
