@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: 'Public Sans', sans-serif;
     background-color: white;
@@ -5,22 +6,111 @@ body {
 
 h1 {
     font-size: 4em;
-    font-weight:700;
+    font-weight: 700;
     line-height: 4.5em;
     color: #1C1D1F;
 }
 
 h2 {
     font-size: 2.5em;
-    font-weight:700;
-    line-height: 3em;
+    font-weight: 700;
+    line-height: 1em;
     color: #1C1D1F;
+    margin-top: 0;
 }
 
 h3 {
     font-size: 1.374em;
-    font-weight:700;
+    font-weight: 700;
     line-height: 1.65em;
     color: #1C1D1F;
 }
+
+h4 {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.62em;
+    color: #1C1D1F;  
+}
+
+h5 {
+    font-size: 0.7272727272727273em;
+    font-weight: 500;
+    line-height: 1.1818181818181819em;
+    color: #1C1D1F;  
+}
+
+h6 {
+    font-size: 0.5454545454545454em;
+    font-weight: 700;
+    line-height: 0.6363636363636364em;
+    color: #A9AEB1;  
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    font-size: 1.374em;
+    font-weight: 700;
+    line-height: 1.65em;
+    color: #585C62;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainnav {
+    width: 100%;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.mainnav li {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+}
+
+.one-third {
+    flex-basis: 33.333%;
+}
+
+.two-third {
+    flex-basis: 66.666%;
+}
+
+.one-half {
+    flex-basis: 50%;
+}
+
+section {
+    padding: 0 16px;
+}
+
+.column {
+    padding: 0 16px;
+}
+/* Headers Styles */
+
+/* Fact Section Styles */
+.fact-section {
+    padding: 94px 31px 197px 31px;
+    flex-wrap: wrap; 
+}
+/* Basic Section Styles */
+.basic-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+
 
