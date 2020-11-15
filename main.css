@@ -98,10 +98,42 @@ section {
 }
 /* Headers Styles */
 
+header {
+    padding: .50em;
+}
+.header-nav {
+    justify-content: space-between;   
+}
+
+.logo {
+    justify-content: flex-start; 
+}
+
+.social-icons {
+    justify-content: flex-end;  
+}
+
+.social-icons li {
+    padding: .50em;  
+}
+
+header h3 {
+    margin: 0;
+}
+
+header ul li {
+    padding: .25em;
+}
+
 /* Fact Section Styles */
 .fact-section {
     padding: 94px 31px 197px 31px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.fact-icon {
+    font-size: 2em;
 }
 /* Basic Section Styles */
 .basic-block {
